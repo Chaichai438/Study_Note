@@ -14,7 +14,6 @@ bz：每个计划我都会单独地设置一个标题来方便大家获取我的
 
 
 ##### C++学习(Study_note)(学习ing）
-- Tips： **study_c++**
--
+- *Tips*： [study_C++](https://github.com/Chaichai438/Study_Note/tree/main/study_C%2B%2B)文件中的内容适合有一定基础的C语言小白学习，旨在帮助小白快速、高效地掌握C++。
 
-
+- 同时推荐一个特别好用的C++学习网站[菜鸟编程](https://www.runoob.com/cplusplus/cpp-tutorial.html),里面的实例操作不仅能帮你学习知识点，分版块的索引还能快速查阅遗忘的知识点，对于学习C++的同学来说简直如虎添翼。

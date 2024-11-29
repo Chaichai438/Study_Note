@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Hotel_Book.dir/src/酒店房间预定系统.cpp.o CMakeFiles/Hotel_Book.dir/src/hotel_Book.cpp.o CMakeFiles/Hotel_Book.dir/src/User.cpp.o -o Hotel_Book

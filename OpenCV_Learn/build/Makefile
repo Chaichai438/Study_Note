@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named test01
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
+test01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test01
+.PHONY : test01
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+test01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/build
+.PHONY : test01/fast
 
-02_Mat类元素的读取.o: 02_Mat类元素的读取.cpp.o
-.PHONY : 02_Mat类元素的读取.o
+轮廓检测.o: 轮廓检测.cpp.o
+.PHONY : 轮廓检测.o
 
 # target to build an object file
-02_Mat类元素的读取.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/02_Mat类元素的读取.cpp.o
-.PHONY : 02_Mat类元素的读取.cpp.o
+轮廓检测.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/轮廓检测.cpp.o
+.PHONY : 轮廓检测.cpp.o
 
-02_Mat类元素的读取.i: 02_Mat类元素的读取.cpp.i
-.PHONY : 02_Mat类元素的读取.i
+轮廓检测.i: 轮廓检测.cpp.i
+.PHONY : 轮廓检测.i
 
 # target to preprocess a source file
-02_Mat类元素的读取.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/02_Mat类元素的读取.cpp.i
-.PHONY : 02_Mat类元素的读取.cpp.i
+轮廓检测.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/轮廓检测.cpp.i
+.PHONY : 轮廓检测.cpp.i
 
-02_Mat类元素的读取.s: 02_Mat类元素的读取.cpp.s
-.PHONY : 02_Mat类元素的读取.s
+轮廓检测.s: 轮廓检测.cpp.s
+.PHONY : 轮廓检测.s
 
 # target to generate assembly for a file
-02_Mat类元素的读取.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/02_Mat类元素的读取.cpp.s
-.PHONY : 02_Mat类元素的读取.cpp.s
+轮廓检测.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/轮廓检测.cpp.s
+.PHONY : 轮廓检测.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test"
-	@echo "... 02_Mat类元素的读取.o"
-	@echo "... 02_Mat类元素的读取.i"
-	@echo "... 02_Mat类元素的读取.s"
+	@echo "... test01"
+	@echo "... 轮廓检测.o"
+	@echo "... 轮廓检测.i"
+	@echo "... 轮廓检测.s"
 .PHONY : help
 
 

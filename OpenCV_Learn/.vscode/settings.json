@@ -3,7 +3,10 @@
   "files.associations": {
     "*.json": "json",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "chrono": "cpp",
+    "array": "cpp",
+    "string_view": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": ""
 }

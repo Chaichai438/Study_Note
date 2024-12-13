@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/chaichai/project/All_study/OpenCV_Learn/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/test.dir/all
+all: CMakeFiles/test01.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/test.dir/codegen
+codegen: CMakeFiles/test01.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,39 +75,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/test01.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
+# Target rules for target CMakeFiles/test01.dir
 
 # All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chaichai/project/All_study/OpenCV_Learn/build/CMakeFiles --progress-num=1,2 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
+CMakeFiles/test01.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chaichai/project/All_study/OpenCV_Learn/build/CMakeFiles --progress-num=1,2 "Built target test01"
+.PHONY : CMakeFiles/test01.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
+CMakeFiles/test01.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaichai/project/All_study/OpenCV_Learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chaichai/project/All_study/OpenCV_Learn/build/CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
+.PHONY : CMakeFiles/test01.dir/rule
 
 # Convenience name for target.
-test: CMakeFiles/test.dir/rule
-.PHONY : test
+test01: CMakeFiles/test01.dir/rule
+.PHONY : test01
 
 # codegen rule for target.
-CMakeFiles/test.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/codegen
-.PHONY : CMakeFiles/test.dir/codegen
+CMakeFiles/test01.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/codegen
+.PHONY : CMakeFiles/test01.dir/codegen
 
 # clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
+CMakeFiles/test01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/clean
+.PHONY : CMakeFiles/test01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

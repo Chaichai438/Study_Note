@@ -25,12 +25,20 @@ void test01()
     // 轮廓的发现与绘制
     vector<vector<Point>> contours; // 存放轮廓点的向量
     vector<Vec4i> hierarchy;        // 存放轮廓的层次结构
+
     findContours(binary, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point());
 
     // 绘制轮廓
     for (int t = 0; t < contours.size(); t++)
     {
-        drawContours(img, contours, t, Scalar(0, 0, 255), 2, 8); // 绘制轮廓
+        // drawContours()
+        // 第一个参数：图像
+        // 第二个参数：轮廓的向量
+        // 第三个参数：轮廓的索引
+        // 第四个参数：轮廓的颜色
+        // 第五个参数：轮廓的宽度
+        // 第六个参数：线条类型
+        drawContours(img, contours, t, Scalar(255, 0, 0), 2, 8); // 绘制轮廓
     }
 
     // 输出轮廓结构描述
@@ -140,12 +148,75 @@ void test03()
     waitKey(0);
 }
 
+void test04()
+{
+    Mat img = imread("../test08.jpg");
+    Mat img1, img2;
+    img.copyTo(img1);
+    img.copyTo(img2);
+    imshow("img", img);
+
+    // 去噪声和二值化
+    Mat canny; // 作用是边缘检测
+    // Canny()
+    //  第一个参数：输入图像
+    //  第二个参数：输出图像
+    //  第三个参数：低阈值    一般取80
+    //  第四个参数：高阈值    一般取160
+    //  第五个参数：apertureSize  孔径大小，一般取3
+    //  第六个参数：L2gradient   是否使用L2范数计算梯度，一般取false
+    Canny(img, canny, 80, 160, 3, false);
+    imshow("", canny);
+
+    // 膨胀运算，将细小缝隙填补
+    Mat kernel = getStructuringElement(0, Size(3, 3));
+    dilate(canny, canny, kernel);
+
+    // 轮廓的发现和绘制
+    vector<vector<Point>> contours; // 存放轮廓点的向量
+    findContours(canny, contours, 0, 2, Point());
+
+    // 寻找轮廓的外接矩形
+    for (int n = 0; n < contours.size(); n++)
+    {
+        // 最大外接矩形
+        //boundingRect()作用是计算矩形的边界框
+        Rect rect = boundingRect(contours[n]);
+        
+        rectangle(img1, rect, Scalar(0, 0, 255), 2, 8, 0);
+
+        // 最小外接矩形
+        RotatedRect rrect = minAreaRect(contours[n]);//RotatedRect类型:返回的有矩形的中心位置、宽高、旋转角度
+        Point2f points[4];
+        rrect.points(points);
+        Point2f cpt = rrect.center;
+
+        // 绘制旋转矩形与中心位置
+        for (int i = 0; i < 4; i++)
+        {
+            if (i == 3)
+            {
+                line(img2, points[i], points[0], Scalar(0, 255, 0), 2, 8, 0);
+                break;
+            }
+            line(img2, points[i], points[i + 1], Scalar(0, 255, 0), 2, 8, 0);
+        }
+        circle(img, cpt, 2, Scalar(255, 0, 0), 2, 8, 0);
+    }
+    // 输出绘制的外接矩形的结果
+    imshow("max", img1);
+    imshow("min", img2);
+    waitKey(0);
+}
+
 int main()
 {
     // test01();
 
     // test02();
 
-    test03();
+    // test03();
+
+    test04();
     return 0;
 }

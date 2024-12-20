@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chaichai/project/All_study/OpenCV_Learn/轮廓检测.cpp" "CMakeFiles/test01.dir/轮廓检测.cpp.o" "gcc" "CMakeFiles/test01.dir/轮廓检测.cpp.o.d"
+  "/home/chaichai/project/All_study/OpenCV_Learn/12_单目位姿估计.cpp" "CMakeFiles/test01.dir/12_单目位姿估计.cpp.o" "gcc" "CMakeFiles/test01.dir/12_单目位姿估计.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

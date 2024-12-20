@@ -36,10 +36,11 @@ Tips：每个计划我都会单独地设置一个标题来方便大家获取我�
 ##### Git学习
 - 学习心得：git的内容并不像C++的内容如此之多，所以我很快就上手了，一旦上手就爱不释手了，以至于我又重新创建了一个这样的库。
 - 学习资源推荐：[康文昌](https://www.bilibili.com/video/BV1s3411g7PS/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=8e2b1bbbf377ce0123b24a308e7fedd8)的视频我觉得讲得很好，虽然视频时长较短，但是对于团队开发项目来说已经足够了，知识内容紧凑，值得你去逐帧观看(有点夸张了),再去一步一步探索github，相信我，你会爱上github的！！
-除此之外，git的代码是在一次又一次的实践中记下来的，如果你有哪些代码忘记的话，你可以参考[菜鸟教程](https://www.runoob.com/cplusplus/cpp-tutorial.html)(又是它，真的很好用)，或者结合我的笔记在[Git_learn](https://github.com/Chaichai438/Study_Note/tree/main/Git_Learn)里面(可能记得有点乱，我之后会来改进的)，祝大家学习愉快
+除此之外，git的代码是在一次又一次的实践中记下来的，如果你有哪些代码忘记的话，你可以参考[菜鸟教程](https://www.runoob.com/git/git-tutorial.html)(又是它，真的很好用)，或者结合我的笔记在[Git_learn](https://github.com/Chaichai438/Study_Note/tree/main/Git_Learn)里面(可能记得有点乱，我之后会来改进的)，祝大家学习愉快
 
 ##### CMake学习
 - 什么是CMmake？CMake是开源、跨平台的构建工具，可以让我们通过编写简单的配置文件去生成本地的Makefile，这个配置文件是独立于运行平台和编译器的，这样就不用亲自去编写Makefile了，而且配置文件可以直接拿到其它平台上使用，无需修改，非常方便。
+- 学习网站[菜鸟教程](https://www.runoob.com/cmake/cmake-tutorial.html)
 - 在我看来，像CMake，Git这类工具性的语言，是用来方便自己的项目进行的。在进行学习的过程中，我们没有必要去死记每行代码，而是在实际的开发和项目构建中去体会和使用他们，遇到不会的再去借助AI或者网站去查索，久而久之在使用的过程中就学会了。在刚开始学的时候，我们去体会每行代码的作用和使用时机就可以了。
 
 ##### OpenCV4学习

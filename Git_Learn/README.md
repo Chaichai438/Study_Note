@@ -13,7 +13,7 @@
 > ..........
 
 ### - 常用指令
-###### `git version`
+###### `git --version`
  >查看当前git的版本号，用来检测电脑上是否安装了git
 
 ###### `git config --global user.name "<name>"`

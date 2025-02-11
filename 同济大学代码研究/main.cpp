@@ -19,7 +19,7 @@ int main()
   Detector detector;
   // Plotter plotter;
   list<Armor> armors;
-  VideoCapture video("/home/chaichai/project/All_study/同济大学代码研究/imgs/8radps.avi");
+  VideoCapture video("/home/chaichai/project/Study_Note/同济大学代码研究/imgs/8radps.avi");
 
   while (1) {
     Mat bgr_img;

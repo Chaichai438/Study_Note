@@ -1,5 +1,5 @@
 CMakeFiles/Armor_identification.dir/main.cpp.o: \
- /home/chaichai/project/All_study/同济大学代码研究/main.cpp \
+ /home/chaichai/project/Study_Note/同济大学代码研究/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
@@ -344,8 +344,8 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/local/include/fmt/format.h /usr/local/include/fmt/base.h \
- /home/chaichai/project/All_study/同济大学代码研究/include/armor.hpp \
+ /home/chaichai/project/Study_Note/同济大学代码研究/include/armor.hpp \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
- /home/chaichai/project/All_study/同济大学代码研究/include/img_tools.hpp \
- /home/chaichai/project/All_study/同济大学代码研究/tasks/detector.hpp \
- /home/chaichai/project/All_study/同济大学代码研究/include/armor.hpp
+ /home/chaichai/project/Study_Note/同济大学代码研究/include/img_tools.hpp \
+ /home/chaichai/project/Study_Note/同济大学代码研究/tasks/detector.hpp \
+ /home/chaichai/project/Study_Note/同济大学代码研究/include/armor.hpp

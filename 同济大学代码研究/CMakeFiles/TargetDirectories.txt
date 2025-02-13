@@ -1,3 +1,0 @@
-/home/chaichai/project/Study_Note/同济大学代码研究/CMakeFiles/Armor_identification.dir
-/home/chaichai/project/Study_Note/同济大学代码研究/CMakeFiles/edit_cache.dir
-/home/chaichai/project/Study_Note/同济大学代码研究/CMakeFiles/rebuild_cache.dir

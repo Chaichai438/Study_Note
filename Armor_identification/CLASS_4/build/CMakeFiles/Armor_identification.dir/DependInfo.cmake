@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chaichai/project/Armor_identification/CLASS_4/main.cpp" "CMakeFiles/Armor_identification.dir/main.cpp.o" "gcc" "CMakeFiles/Armor_identification.dir/main.cpp.o.d"
-  "/home/chaichai/project/Armor_identification/CLASS_4/tasks/detector.cpp" "CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o" "gcc" "CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o.d"
+  "/home/chaichai/project/Study_Note/Armor_identification/CLASS_4/main.cpp" "CMakeFiles/Armor_identification.dir/main.cpp.o" "gcc" "CMakeFiles/Armor_identification.dir/main.cpp.o.d"
+  "/home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks/detector.cpp" "CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o" "gcc" "CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

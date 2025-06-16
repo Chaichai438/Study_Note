@@ -1,7 +1,6 @@
 CMakeFiles/Armor_identification.dir/main.cpp.o: \
- /home/chaichai/project/Armor_identification/CLASS_4/main.cpp \
- /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
- /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/main.cpp \
+ /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/ml.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
  /usr/local/include/opencv4/opencv2/core/version.hpp \
@@ -64,6 +63,7 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/std_abs.h \
  /usr/local/include/opencv4/opencv2/core/base.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -234,7 +234,12 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/include/c++/11/bits/unique_lock.h \
  /usr/local/include/opencv4/opencv2/core/optim.hpp \
  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
- /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/iostream \
+ /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
+ /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/calib3d.hpp \
  /usr/local/include/opencv4/opencv2/features2d.hpp \
  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -242,17 +247,13 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/flann/config.h \
  /usr/local/include/opencv4/opencv2/core/affine.hpp \
  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
- /usr/include/c++/11/iostream \
  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
  /usr/local/include/opencv4/opencv2/dnn.hpp \
  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
  /usr/local/include/opencv4/opencv2/core/async.hpp \
  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
- /usr/local/include/opencv4/opencv2/dnn/dict.hpp /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/c++/11/bits/erase_if.h \
+ /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
  /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
  /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
  /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
@@ -305,8 +306,6 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/videoio.hpp \
  /usr/local/include/opencv4/opencv2/imgproc.hpp \
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
- /usr/local/include/opencv4/opencv2/ml.hpp \
- /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
  /usr/local/include/opencv4/opencv2/objdetect.hpp \
  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
@@ -344,8 +343,8 @@ CMakeFiles/Armor_identification.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
  /usr/local/include/fmt/format.h /usr/local/include/fmt/base.h \
- /home/chaichai/project/Armor_identification/CLASS_4/include/armor.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/include/armor.hpp \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
- /home/chaichai/project/Armor_identification/CLASS_4/include/img_tools.hpp \
- /home/chaichai/project/Armor_identification/CLASS_4/tasks/detector.hpp \
- /home/chaichai/project/Armor_identification/CLASS_4/include/armor.hpp
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/include/img_tools.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks/detector.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/include/armor.hpp

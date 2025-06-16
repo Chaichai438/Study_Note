@@ -1,7 +1,7 @@
 CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o: \
- /home/chaichai/project/Armor_identification/CLASS_4/tasks/detector.cpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks/detector.cpp \
  /usr/include/stdc-predef.h \
- /home/chaichai/project/Armor_identification/CLASS_4/tasks/detector.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks/detector.hpp \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -344,6 +344,6 @@ CMakeFiles/Armor_identification.dir/tasks/detector.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /home/chaichai/project/Armor_identification/CLASS_4/include/armor.hpp \
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/include/armor.hpp \
  /usr/local/include/fmt/format.h /usr/local/include/fmt/base.h \
- /home/chaichai/project/Armor_identification/CLASS_4/tasks/../include/img_tools.hpp
+ /home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks/../include/img_tools.hpp

@@ -1,0 +1,145 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/auto_aim",
+					"jsonFile" : "directory-src.auto_aim-Debug-005c5c10c1c525ee4bfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/auto_aim",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Logger",
+					"jsonFile" : "directory-Logger-Debug-0f4574a6d62e1a69943f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Logger",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Auto_Aim",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Utils.Logger",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Auto_Aim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Auto_Aim-Debug-842820a5167d6648cab4.json",
+					"name" : "Auto_Aim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Log_Test::@8307d85a046eb72c8a29",
+					"jsonFile" : "target-Log_Test-Debug-930cbab800bf29f4b69e.json",
+					"name" : "Log_Test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Log_Test_Output::@8307d85a046eb72c8a29",
+					"jsonFile" : "target-Log_Test_Output-Debug-a5447989d8958963f9f5.json",
+					"name" : "Log_Test_Output",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "UtilsLogger::@8307d85a046eb72c8a29",
+					"jsonFile" : "target-UtilsLogger-Debug-8d858fd2eb2e206566c6.json",
+					"name" : "UtilsLogger",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "auto_detector::@00dc72995f1683ebe43d",
+					"jsonFile" : "target-auto_detector-Debug-0e96c75888ee45a46a1d.json",
+					"name" : "auto_detector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chaichai/project/Study_Note/Auto_AIM/build",
+		"source" : "/home/chaichai/project/Study_Note/Auto_AIM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

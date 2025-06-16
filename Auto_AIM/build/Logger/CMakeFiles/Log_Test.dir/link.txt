@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Log_Test.dir/test/Test.cpp.o -o ../bin/Log_Test  ../bin/libUtilsLogger.a

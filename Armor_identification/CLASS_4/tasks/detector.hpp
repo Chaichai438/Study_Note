@@ -22,8 +22,7 @@ private:
   cv::Mat get_pattern(const cv::Mat & bgr_img, const Armor & armor);  //获得装甲板角点
 
   void classify(Armor & armor);
-};
 
+};  // namespace auto_aim
 }  // namespace auto_aim
-
 #endif

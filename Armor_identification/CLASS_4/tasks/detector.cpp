@@ -131,7 +131,7 @@ cv::Mat Detector::get_pattern(const cv::Mat & bgr_img, const Armor & armor)
 void Detector::classify(Armor & armor)  //task9 学习载入网络的调用ONNX模型，dnn
 {
   cv::dnn::Net net = cv::dnn::readNetFromONNX(
-    "/home/chaichai/project/Armor_identification/CLASS_4/tiny_resnet.onnx");
+    "/home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tiny_resnet.onnx");
   cv::Mat gray;
   cv::cvtColor(armor.pattern, gray, cv::COLOR_BGR2GRAY);
 

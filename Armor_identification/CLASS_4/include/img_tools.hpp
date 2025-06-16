@@ -20,11 +20,12 @@ inline void draw_points(
 
 inline void draw_points(
   cv::Mat & img, const std::vector<cv::Point2f> & points,
-  const cv::Scalar & color = cv::Scalar(0, 0, 255), int thickness = 2)
+  const cv::Scalar & color = cv::Scalar(255, 0, 255), int thickness = 2)
 {
   std::vector<cv::Point> int_points(points.begin(), points.end());
   draw_points(img, int_points, color, thickness);
 }
+
 //绘图函数，依次传入：图像、字符串、显示位置
 inline void draw_text(
   cv::Mat & img, const std::string & text, const cv::Point & point, double font_scale = 1.0,

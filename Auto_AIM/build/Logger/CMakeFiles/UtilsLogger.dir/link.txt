@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libUtilsLogger.a CMakeFiles/UtilsLogger.dir/src/ConsoleLogPolicy.cpp.o CMakeFiles/UtilsLogger.dir/src/FileLogPolicy.cpp.o CMakeFiles/UtilsLogger.dir/src/Logger.cpp.o
+/usr/bin/ranlib ../bin/libUtilsLogger.a

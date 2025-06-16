@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.json": "json",
+        "string": "cpp",
+        "thread": "cpp"
+    }
+}

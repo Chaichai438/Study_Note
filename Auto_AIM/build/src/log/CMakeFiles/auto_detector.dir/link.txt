@@ -1,0 +1,2 @@
+/usr/bin/ar qc libauto_detector.a CMakeFiles/auto_detector.dir/src/Detector.cpp.o CMakeFiles/auto_detector.dir/src/Lightbar.cpp.o CMakeFiles/auto_detector.dir/src/Armor.cpp.o
+/usr/bin/ranlib libauto_detector.a

@@ -1,3 +1,0 @@
-/home/chaichai/project/Armor_identification/CLASS_4/CMakeFiles/Armor_identification.dir
-/home/chaichai/project/Armor_identification/CLASS_4/CMakeFiles/edit_cache.dir
-/home/chaichai/project/Armor_identification/CLASS_4/CMakeFiles/rebuild_cache.dir

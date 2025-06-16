@@ -60,7 +60,7 @@ struct Lightbar
     std::vector<cv::Point2f> corners(4);
     rotated_rect.points(&corners[0]);
 
-    std::sort(corners.begin(), corners.begin(), [](const cv::Point2f & p1, const cv::Point2f & p2) {
+    std::sort(corners.begin(), corners.end(), [](const cv::Point2f & p1, const cv::Point2f & p2) {
       return p1.y < p2.y;
     });  //排序
 
@@ -78,8 +78,6 @@ struct Lightbar
 
     angle = std::atan2(top2bottom.y, top2bottom.x);  //计算角度
     angle_error = std::abs(angle - CV_PI / 2);       // 计算角误差
-
-    //
   };
 };
 
@@ -113,8 +111,8 @@ struct Armor
 
     points.emplace_back(left.top);
     points.emplace_back(right.top);
-    points.emplace_back(left.bottom);
-    points.emplace_back(right.bottom);  //装甲板四个点
+    points.emplace_back(right.bottom);
+    points.emplace_back(left.bottom);  //装甲板四个点
 
     auto left2right = right.center - left.center;                    //两灯条的中点连线
     auto width = cv::norm(left2right);                               //宽度

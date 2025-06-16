@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chaichai/project/Armor_identification/CLASS_4/include -I/home/chaichai/project/Armor_identification/CLASS_4/tasks -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/chaichai/project/Study_Note/Armor_identification/CLASS_4/include -I/home/chaichai/project/Study_Note/Armor_identification/CLASS_4/tasks -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = -std=gnu++11
 

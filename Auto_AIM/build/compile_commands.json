@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/Auto_Aim.dir/main.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/main.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/main.cpp",
+  "output": "CMakeFiles/Auto_Aim.dir/main.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/src/auto_aim",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/./include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/auto_detector.dir/src/Detector.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Detector.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Detector.cpp",
+  "output": "src/auto_aim/CMakeFiles/auto_detector.dir/src/Detector.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/src/auto_aim",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/./include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/auto_detector.dir/src/Lightbar.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Lightbar.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Lightbar.cpp",
+  "output": "src/auto_aim/CMakeFiles/auto_detector.dir/src/Lightbar.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/src/auto_aim",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/./include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/auto_detector.dir/src/Armor.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Armor.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/src/Armor.cpp",
+  "output": "src/auto_aim/CMakeFiles/auto_detector.dir/src/Armor.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/Logger",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/usr/local/include/opencv4 -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -g -std=gnu++20 -o CMakeFiles/UtilsLogger.dir/src/ConsoleLogPolicy.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/Logger/src/ConsoleLogPolicy.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/Logger/src/ConsoleLogPolicy.cpp",
+  "output": "Logger/CMakeFiles/UtilsLogger.dir/src/ConsoleLogPolicy.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/Logger",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/usr/local/include/opencv4 -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -g -std=gnu++20 -o CMakeFiles/UtilsLogger.dir/src/FileLogPolicy.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/Logger/src/FileLogPolicy.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/Logger/src/FileLogPolicy.cpp",
+  "output": "Logger/CMakeFiles/UtilsLogger.dir/src/FileLogPolicy.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/Logger",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/usr/local/include/opencv4 -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -g -std=gnu++20 -o CMakeFiles/UtilsLogger.dir/src/Logger.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/Logger/src/Logger.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/Logger/src/Logger.cpp",
+  "output": "Logger/CMakeFiles/UtilsLogger.dir/src/Logger.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/Logger",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/usr/local/include/opencv4 -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -g -std=gnu++20 -o CMakeFiles/Log_Test.dir/test/Test.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/Logger/test/Test.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/Logger/test/Test.cpp",
+  "output": "Logger/CMakeFiles/Log_Test.dir/test/Test.cpp.o"
+},
+{
+  "directory": "/home/chaichai/project/Study_Note/Auto_AIM/build/Logger",
+  "command": "/usr/bin/g++  -I/home/chaichai/project/Study_Note/Auto_AIM/src -I/home/chaichai/project/Study_Note/Auto_AIM/src/auto_aim/include -I/home/chaichai/project/Study_Note/Auto_AIM/src/utils/include -I/usr/local/include/opencv4 -I/home/chaichai/project/Study_Note/Auto_AIM/Logger/include -g -std=gnu++20 -o CMakeFiles/Log_Test_Output.dir/test/Test_Output.cpp.o -c /home/chaichai/project/Study_Note/Auto_AIM/Logger/test/Test_Output.cpp",
+  "file": "/home/chaichai/project/Study_Note/Auto_AIM/Logger/test/Test_Output.cpp",
+  "output": "Logger/CMakeFiles/Log_Test_Output.dir/test/Test_Output.cpp.o"
+}
+]
